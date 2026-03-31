@@ -32,6 +32,9 @@ BLOCKED_TYPES = {'CUSAD', 'SQLUP', 'SQLQR'}
 # Email prop names on EMAIL nodes that should not contain raw addresses
 EMAIL_ADDR_PROPS = {'to', 'from', 'cc', 'bcc'}
 
+# Regex: a string that looks like an email address
+EMAIL_RE = re.compile(r'[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}')
+
 
 # ── Parsing ───────────────────────────────────────────────────────────────────
 
