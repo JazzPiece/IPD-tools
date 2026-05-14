@@ -1,6 +1,12 @@
 # Infor LPD process files — keep out of this repo
 *.lpd
 
+# Export test outputs
+_test_*
+*.dot
+*.drawio
+*.vsdx
+
 # Python
 __pycache__/
 *.pyc
