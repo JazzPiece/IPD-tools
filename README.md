@@ -77,8 +77,8 @@ python lpd_layout.py --dir ./production/ --restore   # restore all backups in a 
 
 **Crossing reduction**
 
-| Flag | What it does |
-|------|-------------|
+Always runs automatically (20 alternating Sugiyama passes) — no flag needed.
+
 **Spacing**
 
 | Flag | Default | What it does |
